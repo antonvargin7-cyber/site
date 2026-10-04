@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Подробнее об ИИ</title>
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body {
+            font-family: Arial, sans-serif; min-height: 100vh;
+            background: linear-gradient(135deg, #00bfff, #6a5acd);
+            color: white; display: flex; flex-direction: column;
+        }
+        header {
+            background: #222; padding: 20px 50px;
+            display: flex; justify-content: space-between; align-items: center;
+        }
+        nav a { color: white; text-decoration: none; margin-left: 25px; }
+        nav a:hover { color: #00bfff; }
+        main {
+            flex: 1; max-width: 850px; margin: auto; padding: 60px 25px;
+            text-align: center;
+        }
+        h1 { font-size: 42px; margin-bottom: 25px; }
+        p { font-size: 19px; line-height: 1.7; margin-bottom: 25px; }
+        .box {
+            background: rgba(255,255,255,.15); padding: 30px;
+            border-radius: 18px; margin: 25px 0;
+        }
+        .ai-names {
+            margin: 30px 0;
+        }
+
+        .ai-names h2 {
+            margin-bottom: 20px;
+        }
+
+        .ai-grid {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 12px;
+        }
+
+        .ai-name {
+            background: rgba(255,255,255,.15);
+            padding: 15px 20px;
+            border-radius: 12px;
+            border: 1px solid rgba(255,255,255,.3);
+            font-weight: bold;
+        }
+
+        .back {
+            display: inline-block; background: white; color: #333;
+            padding: 14px 28px; border-radius: 8px; text-decoration: none;
+            font-weight: bold; margin-top: 15px;
+        }
+        footer { background: #222; text-align: center; padding: 25px; }
+    </style>
+</head>
+<body>
+    <header>
+        <h2>Мой сайт</h2>
+        <nav>
+            <a href="./index.html">Главная</a>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Как ИИ может помочь?</h1>
+
+        <div class="box">
+            <p>
+                Искусственный интеллект способен отвечать на вопросы,
+                объяснять сложные темы простыми словами, помогать с учёбой,
+                создавать тексты, искать идеи и помогать решать различные задачи.
+            </p>
+
+            <p>
+                Главное — правильно сформулировать вопрос и проверить важную
+                информацию, особенно если речь идёт о здоровье, безопасности
+                или других серьёзных решениях.
+            </p>
+        </div>
+
+
+        <div class="ai-names">
+            <h2>Популярные ИИ</h2>
+            <div class="ai-grid">
+                <div class="ai-name">🤖 ChatGPT</div>
+                <div class="ai-name">✨ Google Gemini</div>
+                <div class="ai-name">🧠 Claude</div>
+                <div class="ai-name">🔎 Perplexity</div>
+                <div class="ai-name">🎨 Microsoft Copilot</div>
+            </div>
+        </div>
+
+        <a href="./index.html" class="back">← Вернуться на главную</a>
+    </main>
+
+    <footer>© 2026 Мой сайт</footer>
+</body>
+</html>
